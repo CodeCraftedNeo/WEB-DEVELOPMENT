@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #424242;
+}
+
+footer {
+	margin-top: 10px;
+	background-color: white;
+	height : 120px;
+	width: 100%;
+}
+#div0 {
+	height : 500px;
+	width: 100%;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius : 25px;
+	display: none;
+}
+
+#div1 {
+	height : 500px;
+	width: 100%;
+	background-image: linear-gradient(to right, white 60%, rgba(50, 122, 255, 0.8), rgba(50, 122, 255, 0.8));
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius : 25px;
+	display: block;
+}
+
+
+#mini1 {
+	height : 450px;
+	width: 25%;
+	background-image: linear-gradient(to bottom right, rgba(128, 222, 234, 0.4) 20%, rgba(225, 255, 234, 0.6), rgba(128, 222, 234, 0.4) 50%);
+	float : right;
+	position : relative;
+	top: 25px;
+	right: 30px;
+	border-radius : 25px;
+	transition : background-image 3s;
+	display:block;
+}
+
+#mini1:hover {
+	background-image: linear-gradient(to bottom right, rgba(128, 222, 234, 0.4) 40%, rgba(225, 255, 234, 0.6), rgba(128, 222, 234, 0.4) 70%);
+}
+
+#div2 {
+	height : 300px;
+	width: 65%;
+	background-color: transparent;
+	position : absolute;
+	top: 500px;
+	left: 60px;
+	border-radius : 25px;
+	display : flex;
+}
+
+#mini2, #mini3, #mini4 {
+	height : 250px;
+	width: 25%;
+	margin : 30px;
+	margin-left : 50px;
+	background-color: rgba(50, 122, 255, 0.8);
+	color : white;
+	border-radius : 25px;
+}
+
+#mini2:hover, #mini3:hover, #mini4:hover {
+	background-color: rgba(50, 50, 255, 0.8);
+	color: black;
+	margin-top: -0.5%;
+}
+
+#div3 {
+	height : 600px;
+	width: 100%;
+	background-color: lightblue;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius : 25px;
+}
+
+#menu {
+	height : 50%;
+	width: 15%;
+	background-color: black;
+	position : absolute;
+	top: 10px;
+	left: 0px;
+	display : none;
+	color : white;
+	padding : 30px;
+	padding-top : 10px;
+}
+
+#btn1 {
+	color: white;
+	font-style: bold;
+	background-color: black;
+	position : absolute;
+	top: 85px;
+	left: 10px;
+	padding: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid transparent;
+	border-radius: 25px;
+	display: block;
+}
+
+#btn2 {
+	color: black;
+	font-style: bold;
+	background-color: white;
+	position : absolute;
+	top: 10px;
+	left: 10px;
+	
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 1px solid transparent;
+	border-radius: 25px;
+}
+
+form {
+	text-align: center;
+	border: 1px solid transparent;
+	position: relative;
+	width: 70%;
+	top: 10%;
+	left: 15%;
+}
+
+.fHead {
+	font-size: 2em;
+}
+
+#email, #password {
+	padding-left: 10px;
+	padding: 10px;
+	border-radius: 25px;
+	width: 80%;
+}
+
+#email:focus, #password:focus, #btn2:hover{
+	background-color: lightgray;
+	color: black;
+}
+
+#btn3 {
+	position: relative;
+	top: 39%;
+	width: 40%;
+	color: black;
+	font-style: bold;
+	background-color: white;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 1px solid transparent;
+	border-radius: 25px;
+}
+
+#btn2:active {
+	background-color: black;
+	color: white;
+}
+
+#error {
+	color: red;
+	display: none;
+}
+
+
+#mini0 {
+	height : 350px;
+	width: 37.5%;
+	border : 1px solid black;
+	float : right;
+	position : relative;
+	top: 25px;
+	right: 30px;
+	border-radius : 25px;
+	display:block;
+}
