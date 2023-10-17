@@ -1,0 +1,218 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+
+#nav1 {
+	float : right;
+	margin : 0px 10px;
+	margin-top: 18px;
+	padding : 15px 15px;
+	
+}
+
+.logo {
+	float : left;
+	margin-top: -10px;
+	text-decoration : bold;
+	font-size : 2.3em;
+	margin-right : 500px;
+	text-decoration : none;
+	color : black;color : black;
+}
+
+.logo:hover {
+	color : blue;
+}
+
+.link {
+	border-radius : 10px;
+	border : 2px solid transparent;
+	padding : 5px 15px;
+	text-decoration : none;
+	background-color : rgba(10, 20, 20, 0.1);
+	color : black;
+}
+.link:hover {
+	background-image : linear-gradient(to right, rgba(0, 190, 100, 0.3), rgba(10, 20, 220, 0.3));
+	color : red;
+}
+
+#welcome_block {
+	border-radius : 10px;
+	border : 3px solid rgba(0, 190, 100, 0.4);
+	background-image : linear-gradient(to right, rgba(0, 190, 100, 0.3), rgba(10, 20, 220, 0.3));
+	position : center;
+	margin-top : 8.5%;
+	margin-bottom : 10.4%;
+	font-size : 2.5em;
+	margin-left : 15%;
+	margin-right : 15%;
+	padding : 40px 50px;
+	
+}
+h3 {
+	font-size : 0.8em;
+	animation: slide-in 1.2s ease-out;
+}
+
+#radSel {
+	list-style-type : none;
+	width : 30%;
+	font-size : 0.4em;
+	display : inline;
+	padding-left : 20px;
+}
+#select_1 {
+	
+}
+#btn {
+	margin : 15px 4px;
+	padding : 5px 40px;
+	border-radius : 10px;
+}
+#btn:hover {background-color : lightgray;}
+#btn:active {background-color : gray; color : white;}
+label {
+	padding-left : 3px;
+	color : black;
+}
+label:hover {
+	color : blue;
+}
+
+hr {
+	border-width: 2px;
+	width : 99.5%;
+}
+
+
+#left_side {
+	border-right : 2px solid lightgray;
+	width : 20%;
+	height: 89%;
+}
+
+@keyframes slide-in {
+      from {
+        opacity: 0;
+        transform: translateY(-80px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+	
+	.container {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      animation: slide-in 1s ease-out;
+    }
+	
+	
+	h2 {
+      text-align: center;
+      color: #333333;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+	#e {
+		color : rgba(250, 0, 0, 0.7);
+	}
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #dddddd;
+      transition: border-color 0.3s ease;
+    }
+
+    .form-group input[type="text"]:focus,
+    .form-group input[type="email"]:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      border-color: #4caf50;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color : rgba(10, 20, 20, 06);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-group button:hover {
+      	background-image : linear-gradient(to right, rgba(0, 190, 100, 0.3), rgba(10, 20, 220, 0.3));
+	
+    }
+	
+#incorrect {
+	display : none;
+	color : red;
+}
+
+#selectOne {
+	display : none;
+	color : red;
+}
+
+#sel {
+	font-size : 0.4em;
+}
+
+#page_1 {
+	border : 2px solid transparent
+	;
+	display : none;
+}
+#student {
+	border : 2px solid transparent;
+	display : block;
+}
+
+#login {
+	border : 2px solid blue;
+	border-radius : 20px;
+	position : absolute;
+	top : 33%;
+	left : 35%;
+	height : 43%;
+	width : 40%;
+	display : block;
+}
+
+#nav2 {
+	border  : 2px solid rgba(204, 64, 64, 0.886);
+	padding : 10px 20px;
+	height :  90%;
+}
