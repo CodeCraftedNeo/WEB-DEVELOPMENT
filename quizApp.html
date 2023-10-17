@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="refresh" content="">
+		<link href="quizApp.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<div id="container">
+			<div id="innerContainer">
+				<div id="logo">
+					<h3>QUIZ APP</h3>
+					
+				</div>
+				<input type="button" name="dark" id="darkmode" value="DARK" onclick="darkmode()">
+				<input type="button" name="dark" id="lightmode" value="LIGHT" onclick="lightmode()">
+				<div id="questionContainer">
+					<h4>QUESTION HERE</h4>
+					<ul>
+						<li>
+							<input type="radio" name="answer" id="a" value="a"><label id="label1" for="a">Answer</label>
+						</li>
+						<li>
+							<input type="radio" name="answer" id="b" value="a"><label id="label2" for="b">Answer</label>
+						</li>
+						<li>
+							<input type="radio" name="answer" id="c" value="a"><label id="label3" for="c">Answer</label>
+						</li>
+						<li>
+							<input type="radio" name="answer" id="d" value="a"><label id="label4" for="d">Answer</label>
+						</li>
+					</ul>
+					
+				</div>
+			
+			</div>
+			<input type="submit" value="SUBMIT" onclick="show()">
+		</div>
+		
+	<script src="quizApp.js"></script>
+	</body>
+</html>
